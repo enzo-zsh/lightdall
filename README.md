@@ -2,5 +2,4 @@
 An open-source lightweight clone of lightweight write in HTML and CSS 
 
 
-
-![screenshot](https://github.com/user-attachments/assets/6112ee90-6131-4f5b-ad69-fd9c766f9c81)
+![Capture d’écran 2024-09-25 à 21 54 38](https://github.com/user-attachments/assets/5928ca49-17c0-48d7-9783-7db3b78a1f46)
