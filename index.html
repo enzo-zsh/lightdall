@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightdall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('wallpaper.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: nowrap; /* Empêche les tableaux de revenir à la ligne */
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        .dashboard {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            width: 40%; /* Réduire la taille pour qu'ils tiennent côte à côte */
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5em;
+        }
+
+        .dashboard h2 {
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .service {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .service:hover {
+            transform: translateY(-5px);
+        }
+
+        .service a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: auto; /* Pousse le footer en bas de la page */
+            padding: 20px;
+            text-align: center;
+            font-size: 1,5em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Lightdall - v1.0</h1>
+    <div class="container">
+        <!-- Tableau VPN -->
+        <div class="dashboard">
+            <h2>🖥️ ⇌ 🖥️  •  VPN</h2>
+            <div class="services">
+                <div class="service">
+                    <a href="http://192.168.1.112:3001" target="_blank">🖥️ • Dashdot</a>
+                </div>
+                <div class="service">
+                    <a href="http://100.102.164.21/GumCP/index.php" target="_blank">🍇 • GumCP</a>
+                </div>
+                <div class="service">
+                    <a href="http://100.102.164.21/numworks/index.html" target="_blank">🧮 • NumWorks</a>
+                </div>
+                <div class="service">
+                    <a href="http://100.102.164.21/lofi-cafe/index.html" target="_blank">☕️ • Lofi-Café</a>
+                </div>
+                <div class="service">
+                    <a href="http://100.102.164.21/passwd-gen/index.html" target="_blank">🔏 • Password Generator</a>
+                </div>
+                <div class="service">
+                    <a href="http://100.102.164.21/whiteboard/index.html" target="_blank">👨🏻‍🏫 • WhiteBoard</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tableau Local -->
+        <div class="dashboard">
+            <h2>🖥️  •  Local</h2>
+            <div class="services">
+                <div class="service">
+                    <a href="http://192.168.1.112:3001" target="_blank">🖥️ • Dashdot</a>
+                </div>
+                <div class="service">
+                    <a href="http://192.168.1.112/GumCP/index.php" target="_blank">🍇 • GumCP</a>
+                </div>
+                <div class="service">
+                    <a href="http://192.168.1.112/numworks/index.html" target="_blank">🧮 • NumWorks</a>
+                </div>
+                <div class="service">
+                    <a href="http://192.168.1.112/lofi-cafe/index.html" target="_blank">☕️ • Lofi-Café</a>
+                </div>
+                <div class="service">
+                    <a href="http://192.168.1.112/passwd-gen/index.html" target="_blank">🔏 • Password Generator</a>
+                </div>
+                <div class="service">
+                    <a href="http://192.168.1.112/whiteboard/index.html" target="_blank">👨🏻‍🏫 • WhiteBoard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Made by @enzo_zsh with ♥️ - GNU/GPLv3 - Lightdall v1.0
+    </footer>
+</body>
+</html>
